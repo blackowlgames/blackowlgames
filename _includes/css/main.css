@@ -112,7 +112,7 @@ header .intro-text .skills {
 
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 3.50em;
     }
 
     header .intro-text .skills {
@@ -469,4 +469,8 @@ footer a:visited, a:active, a:link{
 
 header span{
   color: black;
+}
+
+.modal-body h2{
+  padding-bottom: 5px;
 }
