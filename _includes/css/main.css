@@ -86,7 +86,7 @@ header {
 }
 
 header .container {
-    padding-top: 100px;
+    padding-top: 20px;
     padding-bottom: 50px;
 }
 
@@ -109,10 +109,7 @@ header .intro-text .skills {
 }
 
 @media(min-width:768px) {
-    header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
-    }
+
 
     header .intro-text .name {
         font-size: 4.75em;
@@ -177,6 +174,7 @@ section {
 section h2 {
     margin: 0;
     font-size: 3em;
+    padding-bottom: 10px;
 }
 
 section.success {
@@ -453,4 +451,22 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+li{
+  list-style: none;
+}
+
+footer li{
+  text-decoration: underline;;
+  display: inline;
+  padding-right: 3px;
+}
+
+footer a:visited, a:active, a:link{
+  color: white;
+}
+
+header span{
+  color: black;
 }
